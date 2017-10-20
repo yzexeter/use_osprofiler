@@ -1,0 +1,593 @@
+{
+  "info": {
+    "name": "total",
+    "started": 0,
+    "finished": 1187,
+    "last_trace_started": 1185
+  },
+  "children": [
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "keystone",
+        "service": "admin",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v3",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:08.665948",
+          "project": "keystone",
+          "trace_id": "9192bbfa-02ae-413f-8fc4-dd76eb33bb98"
+        },
+        "started": 0,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:08.669930",
+          "project": "keystone",
+          "trace_id": "9192bbfa-02ae-413f-8fc4-dd76eb33bb98"
+        },
+        "finished": 3,
+        "exception": "None"
+      },
+      "trace_id": "9192bbfa-02ae-413f-8fc4-dd76eb33bb98",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "keystone",
+        "service": "admin",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v3/auth/tokens",
+              "scheme": "http",
+              "method": "POST",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:08.679061",
+          "project": "keystone",
+          "trace_id": "5b1064c9-16ff-4710-9760-cc8b08b27329"
+        },
+        "started": 13,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:08.830742",
+          "project": "keystone",
+          "trace_id": "5b1064c9-16ff-4710-9760-cc8b08b27329"
+        },
+        "finished": 164,
+        "exception": "None"
+      },
+      "trace_id": "5b1064c9-16ff-4710-9760-cc8b08b27329",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "keystone",
+        "service": "admin",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v3/auth/tokens",
+              "scheme": "http",
+              "method": "POST",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:08.854459",
+          "project": "keystone",
+          "trace_id": "e5114ead-8348-4ef2-bbc3-7753708b2e8e"
+        },
+        "started": 188,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "admin",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.017948",
+          "project": "keystone",
+          "trace_id": "e5114ead-8348-4ef2-bbc3-7753708b2e8e"
+        },
+        "finished": 352,
+        "exception": "None"
+      },
+      "trace_id": "e5114ead-8348-4ef2-bbc3-7753708b2e8e",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "glance",
+        "service": "api",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v2/schemas/image",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.024882",
+          "project": "glance",
+          "trace_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf"
+        },
+        "started": 358,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.540613",
+          "project": "glance",
+          "trace_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf"
+        },
+        "finished": 874,
+        "exception": "None"
+      },
+      "trace_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": [
+        {
+          "info": {
+            "name": "wsgi",
+            "project": "keystone",
+            "service": "admin",
+            "host": "HPC-Lab01",
+            "meta.raw_payload.wsgi-start": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "request": {
+                  "path": "/",
+                  "scheme": "http",
+                  "method": "GET",
+                  "query": ""
+                },
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-start",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.037309",
+              "project": "keystone",
+              "trace_id": "f37fa644-8a13-487d-a48f-bd260cdbdf62"
+            },
+            "started": 371,
+            "meta.raw_payload.wsgi-stop": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-stop",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.039124",
+              "project": "keystone",
+              "trace_id": "f37fa644-8a13-487d-a48f-bd260cdbdf62"
+            },
+            "finished": 373,
+            "exception": "None"
+          },
+          "trace_id": "f37fa644-8a13-487d-a48f-bd260cdbdf62",
+          "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+          "children": []
+        },
+        {
+          "info": {
+            "name": "wsgi",
+            "project": "keystone",
+            "service": "admin",
+            "host": "HPC-Lab01",
+            "meta.raw_payload.wsgi-start": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "request": {
+                  "path": "/v3/auth/tokens",
+                  "scheme": "http",
+                  "method": "POST",
+                  "query": ""
+                },
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-start",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.042547",
+              "project": "keystone",
+              "trace_id": "351d15d2-67ec-4195-97ec-71ca9d6df40f"
+            },
+            "started": 376,
+            "meta.raw_payload.wsgi-stop": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-stop",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.201538",
+              "project": "keystone",
+              "trace_id": "351d15d2-67ec-4195-97ec-71ca9d6df40f"
+            },
+            "finished": 535,
+            "exception": "None"
+          },
+          "trace_id": "351d15d2-67ec-4195-97ec-71ca9d6df40f",
+          "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+          "children": []
+        },
+        {
+          "info": {
+            "name": "wsgi",
+            "project": "keystone",
+            "service": "admin",
+            "host": "HPC-Lab01",
+            "meta.raw_payload.wsgi-start": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "request": {
+                  "path": "/v3/",
+                  "scheme": "http",
+                  "method": "GET",
+                  "query": ""
+                },
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-start",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.206212",
+              "project": "keystone",
+              "trace_id": "6cd10792-1138-48f0-9175-c3879c445294"
+            },
+            "started": 540,
+            "meta.raw_payload.wsgi-stop": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-stop",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.209285",
+              "project": "keystone",
+              "trace_id": "6cd10792-1138-48f0-9175-c3879c445294"
+            },
+            "finished": 543,
+            "exception": "None"
+          },
+          "trace_id": "6cd10792-1138-48f0-9175-c3879c445294",
+          "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+          "children": []
+        },
+        {
+          "info": {
+            "name": "wsgi",
+            "project": "keystone",
+            "service": "admin",
+            "host": "HPC-Lab01",
+            "meta.raw_payload.wsgi-start": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "request": {
+                  "path": "/v3/auth/tokens",
+                  "scheme": "http",
+                  "method": "GET",
+                  "query": ""
+                },
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-start",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.215214",
+              "project": "keystone",
+              "trace_id": "d3f9f4ed-f73c-405e-961b-b2ccbd1de544"
+            },
+            "started": 549,
+            "meta.raw_payload.wsgi-stop": {
+              "info": {
+                "project": null,
+                "host": "HPC-Lab01",
+                "service": null
+              },
+              "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+              "service": "admin",
+              "name": "wsgi-stop",
+              "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+              "timestamp": "2017-10-18T21:31:09.480226",
+              "project": "keystone",
+              "trace_id": "d3f9f4ed-f73c-405e-961b-b2ccbd1de544"
+            },
+            "finished": 814,
+            "exception": "None"
+          },
+          "trace_id": "d3f9f4ed-f73c-405e-961b-b2ccbd1de544",
+          "parent_id": "2144b28e-b2fd-4d0f-bd74-1913d64482cf",
+          "children": []
+        }
+      ]
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "glance",
+        "service": "api",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v2/images",
+              "scheme": "http",
+              "method": "POST",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.565127",
+          "project": "glance",
+          "trace_id": "9647e5f4-96a7-41fd-8dab-d2263c8a1c9f"
+        },
+        "started": 899,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.664414",
+          "project": "glance",
+          "trace_id": "9647e5f4-96a7-41fd-8dab-d2263c8a1c9f"
+        },
+        "finished": 998,
+        "exception": "None"
+      },
+      "trace_id": "9647e5f4-96a7-41fd-8dab-d2263c8a1c9f",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "glance",
+        "service": "api",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v2/images/d71cc4a1-691e-4c85-a75d-ab55110d40d2/file",
+              "scheme": "http",
+              "method": "PUT",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.672477",
+          "project": "glance",
+          "trace_id": "fe59f6df-a049-4f6e-a6c9-c5b0f004a050"
+        },
+        "started": 1006,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.824733",
+          "project": "glance",
+          "trace_id": "fe59f6df-a049-4f6e-a6c9-c5b0f004a050"
+        },
+        "finished": 1158,
+        "exception": "None"
+      },
+      "trace_id": "fe59f6df-a049-4f6e-a6c9-c5b0f004a050",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "glance",
+        "service": "api",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v2/images/d71cc4a1-691e-4c85-a75d-ab55110d40d2",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.829691",
+          "project": "glance",
+          "trace_id": "5eb85bcb-660b-4924-9777-c212dc9fca47"
+        },
+        "started": 1163,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.842283",
+          "project": "glance",
+          "trace_id": "5eb85bcb-660b-4924-9777-c212dc9fca47"
+        },
+        "finished": 1176,
+        "exception": "None"
+      },
+      "trace_id": "5eb85bcb-660b-4924-9777-c212dc9fca47",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    },
+    {
+      "info": {
+        "name": "wsgi",
+        "project": "glance",
+        "service": "api",
+        "host": "HPC-Lab01",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "request": {
+              "path": "/v2/schemas/image",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            },
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-start",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.851289",
+          "project": "glance",
+          "trace_id": "11bb5ae4-7be1-4cc1-98de-de613c2d9626"
+        },
+        "started": 1185,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "project": null,
+            "host": "HPC-Lab01",
+            "service": null
+          },
+          "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "service": "api",
+          "name": "wsgi-stop",
+          "base_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+          "timestamp": "2017-10-18T21:31:09.853496",
+          "project": "glance",
+          "trace_id": "11bb5ae4-7be1-4cc1-98de-de613c2d9626"
+        },
+        "finished": 1187,
+        "exception": "None"
+      },
+      "trace_id": "11bb5ae4-7be1-4cc1-98de-de613c2d9626",
+      "parent_id": "f2d22892-4009-44ab-9151-3adce5ea3c87",
+      "children": []
+    }
+  ],
+  "stats": {
+    "wsgi": {
+      "count": 12,
+      "duration": 1529
+    }
+  }
+}
